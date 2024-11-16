@@ -1,8 +1,8 @@
 body {
-    background-color: #ddd5c3;
-  }
+    background-color: #F9F1DE;
+}
   
-  /**top logo**/
+  /**logo and heading settings**/
 
   .logo {
     padding-top: 50px;
@@ -19,6 +19,11 @@ body {
     font-size: medium;
  }
   
+ .elf {
+    padding-top: 20px;
+    padding-bottom: 30px;
+ }
+
   /**item cards**/
   div.card {
     background-color: #FF7F7D;
@@ -53,3 +58,45 @@ body {
   .navbar.fixed-bottom {
     background-color: #FFFFFF;
   }
+
+
+  /* For small devices like phones (up to 576px) */
+@media (max-width: 576px) {
+    .card {
+        max-width: 100%; /* Make cards take the full width */
+        margin: 10px; /* Add some spacing */
+    }
+
+    .navbar {
+        text-align: center; /* Center-align navbar content */
+    }
+
+    img.img-logo {
+        width: 150px; /* Resize images for smaller screens */
+        height: auto;
+    }
+}
+
+/* For medium devices like tablets (576px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+    .card {
+        max-width: 90%; /* Slightly reduce card width */
+    }
+
+    img.img-logo {
+        width: 175px;
+        height: auto;
+    }
+}
+
+/* For large devices like desktops (768px and up) */
+@media (min-width: 769px) {
+    .card {
+        max-width: 540px; /* Original size for larger screens */
+    }
+
+    img.img-logo {
+        width: 200px;
+        height: 200px;
+    }
+}
