@@ -6,6 +6,7 @@ body {
 
   .logo {
     padding-top: 50px;
+    padding-bottom: 50px;
     background-image: "images/logo.jpg";
     background-repeat: no-repeat;
     background-position: center;
