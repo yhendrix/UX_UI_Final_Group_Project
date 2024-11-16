@@ -1,0 +1,54 @@
+body {
+    background-color: #ddd5c3;
+  }
+  
+  /**top logo**/
+
+  .logo {
+    padding-top: 50px;
+    background-image: "images/logo.jpg";
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+ 
+ .h1 {
+    padding: 100px;
+    font-family: serif;
+    font-size: medium;
+ }
+  
+  /**item cards**/
+  div.card {
+    background-color: #FF7F7D;
+  }
+  
+  /**modal button image background**/
+  .btn1.btn-primary {
+    background-color: #FF7F7D;
+    border: white; 
+    padding: 0px 0px;
+  }
+  
+  /**modal picture**/
+  .modal.fade img{
+    padding: 30px 30px;
+  }
+  
+  /**show more**/
+  .btn.btn-primary{
+    color: white;
+    background-color: #1A3013;  
+    border-color: #FF7F7D;
+    transition-duration: 0s;
+  }
+
+  .btn.btn-primary:hover {
+    background-color: #1A3013;  
+    border-color: #FF7F7D;
+  }
+  
+  /**bottom fixed navigation**/
+  .navbar.fixed-bottom {
+    background-color: #FFFFFF;
+  }
